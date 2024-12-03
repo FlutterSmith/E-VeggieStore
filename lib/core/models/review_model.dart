@@ -1,4 +1,3 @@
-
 import 'package:fruits_hub/core/entites/review_entity.dart';
 
 class ReviewModel {
@@ -23,6 +22,15 @@ class ReviewModel {
       ratting: reviewEntity.ratting,
       date: reviewEntity.date,
       reviewDescription: reviewEntity.reviewDescription,
+    );
+  }
+  ReviewEntity toEntity() {
+    return ReviewEntity(
+      name: name,
+      image: image,
+      ratting: ratting,
+      date: date,
+      reviewDescription: reviewDescription,
     );
   }
 
