@@ -9,8 +9,8 @@ import 'best_selling_header.dart';
 import 'custom_home_app_bar.dart';
 import 'featured_list.dart';
 
-class HomeViewBody extends StatelessWidget {
-  const HomeViewBody({super.key});
+class MainViewBody extends StatelessWidget {
+  const MainViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
