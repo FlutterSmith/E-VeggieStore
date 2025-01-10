@@ -1,3 +1,5 @@
+import 'package:fruits_hub/core/cubits/products_cubit/products_cubit.dart';
+import 'package:fruits_hub/core/repos/products_repo/products_repo.dart';
 import 'package:fruits_hub/core/widgets/fruit_item.dart';
 import 'package:fruits_hub/features/home/presentation/views/widgets/featured_item.dart';
 import 'package:fruits_hub/features/home/presentation/views/widgets/home_view_body.dart';
@@ -15,7 +17,11 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const HomeViewBody();
+    return BlocProvider(
+      create: (context) =>  ProductsCubit(
+        getIt.get<ProductsRepo>(),
+      ),
+      child: const HomeViewBody(),
+    );
   }
 }
-
