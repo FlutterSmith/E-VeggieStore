@@ -1,0 +1,13 @@
+# Flutter/Dart related
+.dart_tool/
+.packages
+build/
+flutter_*.yaml
+
+# IDE related
+.idea/
+.vscode/
+
+# OS related
+.DS_Store
+Thumbs.db
