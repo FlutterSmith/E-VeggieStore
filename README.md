@@ -46,25 +46,25 @@ We are actively working on adding more features, optimizing performance, and imp
 ## 🚀 Installation
 
 Follow these steps to set up the project locally:
-
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/FlutterSmith/E-VeggieStore.git
 
-```bash   
-2. Navigate to the project directory: cd E-VeggieStore
+2. Navigate to the project directory:
+    ```bash
+    cd E-VeggieStore
 
-
-3. Install dependencies: flutter pub get
-
-
-4. flutter run
+3. Install dependencies:
+   ```bash
+   flutter pub get
+4. Run the app:
+   ```bash
+   flutter run
 
 Note: Ensure you have Flutter installed. For installation instructions, visit the Flutter installation guide.
 
-
 📂 Project Structure
-```bash
+  ```bash
 E-VeggieStore/
 ├── lib/
 │   ├── models/         # Data models
@@ -76,29 +76,33 @@ E-VeggieStore/
 ├── assets/             # Images and other assets
 ├── pubspec.yaml        # Dependencies and metadata
 └── README.md           # Project documentation
-
-
-
-
+```
 🤝 Contribution
 Contributions are always welcome! Follow these steps to contribute:
 
-1) Fork the repository.
-2) Create a new branch: git checkout -b feature-branch-name.
-3)Make your changes and commit: git commit -m "Add some feature".
-4) Push to the branch: git push origin feature-branch-name.
-5) Open a pull request.
+Fork the repository.
+Create a new branch: git checkout -b feature-branch-name.
+Make your changes and commit: git commit -m "Add some feature".
+Push to the branch: git push origin feature-branch-name.
+Open a pull request.
 
 
-
-📜 License
-This project is licensed under the MIT License.
 
 📬 Contact
 Feel free to reach out for questions or suggestions:
 
 Developer: Ahmed Hamdy
 Email: ahmedhamdy11112233@gmail.com
-GitHub: FlutterSmith
 
 Enjoy using E-VeggieStore! 🌽🥕
+
+📜 License
+This project is licensed under the MIT License.
+
+Copyright (c) [2025] [Ahmed Hamdy]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
