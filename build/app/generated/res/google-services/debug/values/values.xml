@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">100180601207</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQAMiHCa4-Cm653Ko3dUWkS5VEk00Lzxw</string>
+    <string name="google_app_id" translatable="false">1:100180601207:android:b27eaa5f841ee5a623d972</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQAMiHCa4-Cm653Ko3dUWkS5VEk00Lzxw</string>
+    <string name="google_storage_bucket" translatable="false">fruits-hub-4cbe0.appspot.com</string>
+    <string name="project_id" translatable="false">fruits-hub-4cbe0</string>
+</resources>
