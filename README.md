@@ -140,11 +140,11 @@ Cloud Messaging: For sending push notifications.
 
 Payment Gateway
 
-Integrate a payment gateway of your choice (e.g., Stripe, Razorpay). Test the integration in sandbox mode before enabling live payments.
+Integrate a payment gateway of your choice (e.g., Stripe,PayPal). Test the integration in sandbox mode before enabling live payments.
 
 State Management
 
-The app uses Provider for state management, ensuring a clean separation between UI and business logic.
+The app uses Bloc/Cubit for state management, ensuring a clean separation between UI and business logic.
 
 
 
