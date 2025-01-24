@@ -1,7 +1,11 @@
+import 'package:fruits_hub/core/entites/product_entity.dart';
+
 import '../../exports.dart';
 
 class FruitItem extends StatelessWidget {
-  const FruitItem({super.key});
+  const FruitItem({super.key, required this.productEntity});
+
+  final ProductEntity productEntity;
 
   @override
   Widget build(BuildContext context) {
