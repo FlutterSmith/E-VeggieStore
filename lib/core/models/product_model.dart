@@ -56,6 +56,24 @@ class ProductModel {
             json['reviews'].map((x) => ReviewModel.fromJson(x))),
       );
 
+  ProductEntity toEntity() {
+    return ProductEntity(
+      name: name,
+      description: description,
+      code: code,
+      price: price,
+      imageUrl: imageUrl,
+      isFeatured: isFeatured,
+      expiredMonths: expiredMonths,
+      isOrganic: isOrganic,
+      quantity: quantity,
+      calories: calories,
+      unitAmount: unitAmount,
+      reviews: reviews.map((e) => e.toEntity()).toList(),
+      image: image,
+    );
+  }
+
   Map<String, dynamic> toJson() {
     return {
       'name': name,
