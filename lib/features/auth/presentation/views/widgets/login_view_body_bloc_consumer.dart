@@ -22,7 +22,7 @@ class LoginViewBodyBlocConsumer extends StatelessWidget {
             backgroundColor: Colors.green,
           );
 
-          Navigator.pushReplacementNamed(context, HomeView.routeName);
+          Navigator.pushReplacementNamed(context, MainView.routeName);
         }
         if (state is SigninFailure) {
           buildSnackBar(context: context, message: state.message);
