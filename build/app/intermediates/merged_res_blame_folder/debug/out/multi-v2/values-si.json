@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.fruits_hub.app-mergeDebugResources-41:/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\SiNfuuL\\.gradle\\caches\\transforms-3\\3266236a153b7026d6234485ac1d73f5\\transformed\\jetified-play-services-base-18.0.1\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,297,447,567,676,814,934,1046,1140,1287,1398,1550,1677,1817,1974,2043,2100",
+                        "endColumns": "103,149,119,108,137,119,111,93,146,110,151,126,139,156,68,56,75",
+                        "endOffsets": "296,446,566,675,813,933,1045,1139,1286,1397,1549,1676,1816,1973,2042,2099,2175"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,45,47,48,49,50,51,52,53,54,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3777,3885,4039,4163,4276,4418,4542,4658,4895,5046,5161,5317,5448,5592,5753,5826,5887",
+                        "endColumns": "107,153,123,112,141,123,115,97,150,114,155,130,143,160,72,60,79",
+                        "endOffsets": "3880,4034,4158,4271,4413,4537,4653,4751,5041,5156,5312,5443,5587,5748,5821,5882,5962"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SiNfuuL\\.gradle\\caches\\transforms-3\\c07e5f5538a3990f7f317ec9a3589905\\transformed\\appcompat-1.1.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,221,328,435,518,623,739,829,916,1007,1099,1193,1287,1388,1481,1576,1670,1761,1852,1935,2044,2148,2246,2356,2456,2563,2722,2821",
+                        "endColumns": "115,106,106,82,104,115,89,86,90,91,93,93,100,92,94,93,90,90,82,108,103,97,109,99,106,158,98,80",
+                        "endOffsets": "216,323,430,513,618,734,824,911,1002,1094,1188,1282,1383,1476,1571,1665,1756,1847,1930,2039,2143,2241,2351,2451,2558,2717,2816,2897"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,221,328,435,518,623,739,829,916,1007,1099,1193,1287,1388,1481,1576,1670,1761,1852,1935,2044,2148,2246,2356,2456,2563,2722,6403",
+                        "endColumns": "115,106,106,82,104,115,89,86,90,91,93,93,100,92,94,93,90,90,82,108,103,97,109,99,106,158,98,80",
+                        "endOffsets": "216,323,430,513,618,734,824,911,1002,1094,1188,1282,1383,1476,1571,1665,1756,1847,1930,2039,2143,2241,2351,2451,2558,2717,2816,6479"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SiNfuuL\\.gradle\\caches\\transforms-3\\a3a5d37262f47f95c08b0a8de80b4f81\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,165",
+                        "endColumns": "109,113",
+                        "endOffsets": "160,274"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2821,2931",
+                        "endColumns": "109,113",
+                        "endOffsets": "2926,3040"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SiNfuuL\\.gradle\\caches\\transforms-3\\5eaacbdb1002703acbeaca32815a3f91\\transformed\\core-1.13.1\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,260,365,470,569,673,787",
+                        "endColumns": "101,102,104,104,98,103,113,100",
+                        "endOffsets": "152,255,360,465,564,668,782,883"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,61",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3045,3147,3250,3355,3460,3559,3663,6484",
+                        "endColumns": "101,102,104,104,98,103,113,100",
+                        "endOffsets": "3142,3245,3350,3455,3554,3658,3772,6580"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SiNfuuL\\.gradle\\caches\\transforms-3\\c787a707457c6ab1fb0d2e8bbb7c843d\\transformed\\jetified-play-services-basement-18.3.0\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "4756",
+                        "endColumns": "138",
+                        "endOffsets": "4890"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SiNfuuL\\.gradle\\caches\\transforms-3\\12b2a173ca55981d1410e4fffd034083\\transformed\\browser-1.4.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,163,270,386",
+                        "endColumns": "107,106,115,104",
+                        "endOffsets": "158,265,381,486"
+                    },
+                    "to": {
+                        "startLines": "56,57,58,59",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5967,6075,6182,6298",
+                        "endColumns": "107,106,115,104",
+                        "endOffsets": "6070,6177,6293,6398"
+                    }
+                }
+            ]
+        }
+    ]
+}
