@@ -8,19 +8,23 @@ class BestSellingGridView extends StatelessWidget {
 
   final List<ProductEntity> products;
 
-
   @override
   Widget build(BuildContext context) {
     return SliverGrid.builder(
-      itemCount: 6,
+      itemCount: products.length,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         childAspectRatio: 163 / 214,
       ),
       itemBuilder: (context, index) {
-        return const Padding(
-          padding: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
-          child: FruitItem(),
+
+        return Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
+          child: FruitItem(
+            productEntity: products[index]
+            ,
+            
+          ),
         );
       },
     );
